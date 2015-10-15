@@ -1,0 +1,175 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+body {
+  margin: 0 auto;
+}
+
+header {
+  height: 150px;
+  border-bottom: 5px yellow solid;
+  background-color: black;
+  padding: 20px 5px 5px 20px;
+}
+
+div.head-gutter {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+div.corner {
+  height: 50px;
+  width: 40%;
+  /*font-family: */
+  font-style: bold;
+  font-size: 32px;
+  /*padding: 20px;*/
+  color: yellow;
+  font-family: cambria;
+}
+
+nav {
+  height: 30px;
+  float: right;
+  width: 70%;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button.nav-bold {
+  height: 30px;
+  /*width: 18%;*/
+  float: left; 
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: 16px;
+  margin: 10px;
+  font-weight: 800;
+}
+
+button.nav-reg {
+  height: 30px;
+  /*width: 18%;*/
+  float: left;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 16px;
+  margin: 10px;
+}
+
+div.gutter {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+div.brains {
+  height: 75px;
+  clear: both;
+  background: #eee;
+  font-style: italic;
+  text-align: center;
+  font-size: 30px;
+  font-family: cambria;
+ }
+
+.tagline {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 25px;
+
+}
+
+span.taste {
+  color: gray;
+  text-decoration: line-through;
+}
+
+span.underline {
+  border-bottom: solid 3px yellow;
+}
+
+article.pic {
+  background-image: url("../images/coworking.jpg");
+  height: 500px;
+  background-size: cover;
+  padding: 20px;
+}
+
+section.meet {
+  float: right;
+  background-color: #eee;
+  opacity: 0.75;
+  height: 350px;
+  width: 40%;
+  border: solid 1px gray;
+  padding: 30px;
+  font-size: 20px;
+  font-family: calibri;
+}
+
+h3 {
+  font-style: bold;
+  font-size: 30px;
+  margin: 5px;
+}
+
+button.rectangle {
+  height: 50px;
+  width: 90%;
+  margin: 5%;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 10px;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+aside.find {
+  width: 25%;
+  height: 275px;
+  float: left;
+ /* padding: 15px;*/
+  margin: 4%;
+  margin-top: 0px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 24px;
+  font-style: bold;
+  font-family: cambria;
+}
+
+aside>p{
+  font-size: 20px;
+  font-family: calibri;
+}
+
+footer {
+  background-color: black;
+  height: 50px;
+  clear: left;
+  color: white;
+  padding-top: 4px;
+  padding-left: 800px;
+}
+
+
+
+
+
+
+
+
+
